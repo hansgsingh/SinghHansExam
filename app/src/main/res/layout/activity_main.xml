@@ -185,7 +185,7 @@
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
-                android:layout_height="114dp"
+                android:layout_height="103dp"
                 android:background="#FFEB3B"
                 android:text="Note 3\n\nQuisque commodo, justo vel tempor viverra, nisl libero consectetur justo, nec aliquet urna odio id urna. Nullam " />
 
