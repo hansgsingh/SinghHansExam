@@ -114,8 +114,9 @@
         app:layout_constraintVertical_bias="0.056" />
 
     <LinearLayout
-        android:layout_width="199dp"
-        android:layout_height="397dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="201dp"
+        android:layout_height="382dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
@@ -125,8 +126,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -137,23 +138,31 @@
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="144dp"
+                android:background="#8EE081"
                 android:text="Note 1\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dapibus quam, " />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
-                android:layout_height="238dp"
+                android:layout_height="239dp"
+                android:background="#F56B9A"
                 android:text="Note 2\n\nPraesent sit amet est rhoncus, consequat justo sit amet, rhoncus purus. Nulla eu massa enim. Sed in nibh consequat, gravida metus at, convallis nunc. Mauris in aliquet mi. Etiam in turpis elit. Vestibulum in augue eget eros suscipit ornare euismod nec justo. Duis rutrum eget metus ac aliquet. Sed placerat accumsan " />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="188dp"
-        android:layout_height="395dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="191dp"
+        android:layout_height="392dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="215dp">
+        app:layout_constraintVertical_bias="0.88">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,6 +185,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="114dp"
+                android:background="#FFEB3B"
                 android:text="Note 3\n\nQuisque commodo, justo vel tempor viverra, nisl libero consectetur justo, nec aliquet urna odio id urna. Nullam " />
 
         </LinearLayout>
